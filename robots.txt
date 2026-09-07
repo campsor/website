@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /privacy.html
 
-Sitemap: https://campsorcapital.com/sitemap.xml
+Sitemap: https://www.campsorcapital.com/sitemap.xml
