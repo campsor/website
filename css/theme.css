@@ -60,6 +60,7 @@
 [data-theme="tech-light"] .nav .brand__mark { content: url("../assets/mark-navy.png"); }
 [data-theme="tech-light"] .hero__canvas { opacity: .7; filter: invert(1) hue-rotate(180deg) brightness(.7); }
 [data-theme="tech-light"] .partner { background: var(--ink); }
+[data-theme="tech-light"] .partner__role { color: rgba(255,255,255,.75); }
 [data-theme="tech-light"] .partner:hover { background: #0B3448; }
 
 [data-theme^="tech"] body { background: var(--paper); color: var(--ink); }
@@ -251,3 +252,4 @@
 [data-theme="tech-light"] .theme-toggle .ico-sun { display: block; }
 [data-theme="tech-light"] .theme-toggle .ico-moon { display: none; }
 @media (max-width: 880px) { .theme-toggle { margin-left: auto; } .nav__burger { margin-left: 0; } }
+[data-theme^="tech"] .partner__role { font-weight: 500; color: var(--acc); }
