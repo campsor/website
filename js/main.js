@@ -114,11 +114,17 @@
       }
       ctx.fillStyle = "rgba(207,237,241,.85)";
       for (const p of pts) { ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill(); }
-      raf = requestAnimationFrame(step);
+      if (running) raf = requestAnimationFrame(step);
     }
-    resize(); step();
-    window.addEventListener("resize", () => { cancelAnimationFrame(raf); resize(); step(); });
-    document.addEventListener("visibilitychange", () => { if (document.hidden) cancelAnimationFrame(raf); else step(); });
+    let running = false;
+    const start = () => { if (!running) { running = true; step(); } };
+    const stop = () => { running = false; cancelAnimationFrame(raf); };
+    resize(); start();
+    window.addEventListener("resize", () => { stop(); resize(); start(); });
+    document.addEventListener("visibilitychange", () => { if (document.hidden) stop(); else start(); });
+    // stop drawing while the hero is scrolled out of view: keeps the main thread free for scrolling and clicks
+    new IntersectionObserver((entries) => entries.forEach((e) => (e.isIntersecting ? start() : stop())), { threshold: 0 })
+      .observe(canvas);
   })();
 
   /* ---------- Performance: render table from data/returns.json, colour cells, build cumulative chart ---------- */
