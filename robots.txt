@@ -1,0 +1,27 @@
+# Campsor Capital — every crawler is welcome, including AI search engines and assistants.
+# We would rather they read the official figures here than an outdated third-party copy.
+
+User-agent: *
+Allow: /
+
+# The rule above already covers them; the named agents are listed so the intent is explicit
+# and auditable. Search indexes, assistant fetches and training crawlers are all permitted.
+User-agent: Googlebot
+User-agent: Google-Extended
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+User-agent: Amazonbot
+Allow: /
+
+Sitemap: https://campsorcapital.com/sitemap.xml

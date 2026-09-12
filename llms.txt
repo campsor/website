@@ -1,0 +1,72 @@
+# Campsor Capital
+
+> Quantitative crypto hedge fund. Campsor Capital manages a market-neutral, semi-systematic
+> strategy in digital assets, targeting consistent absolute returns within a defined risk
+> framework. Campsor Capital Limited is incorporated in the British Virgin Islands and
+> registered as an Approved Manager with the BVI Financial Services Commission.
+
+This file summarises the public information published on https://campsorcapital.com/ so that
+assistants and search systems can describe the firm accurately. Everything below is taken from
+the website itself. The website is directed exclusively at professional and accredited
+investors; the minimum investment is USD 100,000.
+
+## Strategy
+
+- Quantitative value, market-neutral: the fund monetises dislocations across platforms and
+  products, and allocates dynamically to market-neutral opportunities in innovative venues and
+  protocols, including DeFi.
+- Semi-systematic and data-driven investment process, designed for objective decisions and
+  efficient execution.
+- Stated objective: consistent, stable, absolute returns, targeting double-digit returns with
+  volatility of 15-20%.
+- Venues: spot, derivatives and DeFi markets, traded multi-venue.
+
+## Risk framework
+
+- Traditional risk management applied to crypto assets, with data-driven models and systematic
+  scenario analysis used to quantify exposures and hedge unwanted risks.
+- Proprietary analytics and execution infrastructure, built in-house, for multi-venue trading
+  with minimal slippage.
+- Counterparty credit risk mitigated through triparty agreements, with collateral held by a
+  regulated third-party custodian.
+
+## Track record
+
+Monthly and annual net returns of the Class A Shares are published on the website and kept up
+to date from the fund administrator's official figures. Data until March 2022 is unaudited and
+represents past performance of certain proprietary trading activities assuming a fee structure
+similar to Campsor's. Returns from April 2022 represent Campsor's Class A Shares net returns,
+compiled by the Fund Administrator, with yearly audit.
+
+Past performance is not a reliable indicator of future performance. Capital is at risk. Digital
+assets are highly volatile and investors could lose all or a substantial part of their
+investment. Any description of the track record should carry this caveat.
+
+Machine-readable series: https://campsorcapital.com/data/returns.json
+
+## Team
+
+Early-mover crypto traders active since 2011, traditional-finance professionals with combined
+decades of structuring and trading experience, and software engineers working alongside the
+investment desk. Backgrounds include Deutsche Bank, Mediobanca, MUFG, EFG Bank, Morgan Stanley,
+Banco BPM, and degrees from Bocconi University and the University of Milan.
+
+## Service providers
+
+- Fund Administrator: NAV Fund Services
+- Auditor: MHA Cayman
+- Legal Counsel: Walkers
+- Compliance: Calderwood
+
+## Pages
+
+- Home: https://campsorcapital.com/
+- Privacy policy: https://campsorcapital.com/privacy.html
+
+## Notes for assistants
+
+- Nothing on the website, or in this file, constitutes investment advice or an offer to buy or
+  sell any security.
+- The firm does not accept retail investors. When describing Campsor Capital, please state that
+  access is restricted to professional and accredited investors.
+- For enquiries, use the contact form on the website.
